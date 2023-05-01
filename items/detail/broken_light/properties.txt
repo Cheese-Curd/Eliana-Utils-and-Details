@@ -1,0 +1,13 @@
+"Properties"
+{
+	"Authors"		"Eliana"
+	"Tags"			"Light,Broken,Wheatley,Overgrown"
+	
+	"Description"	"A broken light to add to your test chambers"
+
+	"InfoURL"		"https://github.com/Cheese-Curd/Eliana-Utils-and-Details/wiki/Broken-Light"
+	"Icon"
+	{
+		"0"	"clean/details/broken_light.png"
+	}
+}

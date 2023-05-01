@@ -1,0 +1,21 @@
+"ID"	"ELIANA_UTILS"
+"Name"	"Eliana's Util Items"
+"Desc"	"Adds some usful utility items that can either add detail or functionality to your tests"
+
+// Broken Light
+"Item"
+{
+	"ID" "EUTIL_DETAIL_BROKEN_LIGHT"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY"	"detail/broken_light"
+		}
+	}
+}
+"TemplateBrush"
+{
+	"ID"	"TPL_EUTIL_STRIP_NODRAW"
+	"file"	"nodraw_strip_base.vmf"	
+}

@@ -1,0 +1,38 @@
+"Item"
+{
+	"ItemClass"	"ItemBase"
+	"Type"		"EUTIL_DETAIL_BROKEN_LIGHT"
+	"Editor"
+	{
+		"SubTypeProperty" "CubeType"
+		"SubType"
+		{
+			"Name"	"Broken Light"
+			"Model"
+			{
+				"ModelName"	"light_strip.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"	"BROKEN LIGHT"
+				"Image"		"palette/light_strip.png"
+			}
+		}
+		"MovementHandle"	"HANDLE_8_POSITIONS"
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/BEE2/clean/items/details/broken_light.vmf"
+				"EntityCount"		"11"
+				"BrushCount"		"0"
+				"BrushSideCount"	"0"
+			}
+		}
+		"TargetName"	"brknLight"
+		"Offset"		"64 64 64"
+	}
+}
