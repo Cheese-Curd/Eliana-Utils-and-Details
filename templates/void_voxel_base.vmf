@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "14"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "14"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -36,7 +36,7 @@ entity
 	"discard_brushes" "0"
 	"is_scaling" "0"
 	"temp_type" "default"
-	"template_id" "TPL_EUTIL_STRIP_VOID"
+	"template_id" "TPL_EUTIL_VOXEL_VOID"
 	"origin" "0 0 16"
 	editor
 	{
@@ -48,60 +48,11 @@ entity
 }
 entity
 {
-	"id" "2"
-	"classname" "bee2_template_tilesetter"
-	"angles" "0 0 0"
-	"color" "tile"
-	"skin" "5"
-	"origin" "0 16 -64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "11"
-	"classname" "bee2_template_tilesetter"
+	"classname" "bee2_template_voxelsetter"
 	"angles" "0 0 0"
-	"color" "tile"
 	"skin" "5"
-	"origin" "0 48 -64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "13"
-	"classname" "bee2_template_tilesetter"
-	"angles" "0 0 0"
-	"color" "tile"
-	"skin" "5"
-	"origin" "0 -16 -64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "17"
-	"classname" "bee2_template_tilesetter"
-	"angles" "0 0 0"
-	"color" "tile"
-	"skin" "5"
-	"origin" "0 -48 -64"
+	"origin" "0 0 0"
 	editor
 	{
 		"color" "220 30 220"

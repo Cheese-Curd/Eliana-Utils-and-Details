@@ -2,7 +2,8 @@
 "Name"	"Eliana's Util Items"
 "Desc"	"Adds some usful utility items that can either add detail or functionality to your tests"
 
-// Broken Light
+// Details
+	// Broken Light
 "Item"
 {
 	"ID" "EUTIL_DETAIL_BROKEN_LIGHT"
@@ -14,8 +15,31 @@
 		}
 	}
 }
+// Utils
+	// Player Clip
+"Item"
+{
+	"ID" "EUTIL_UTIL_PLAYER_CLIP"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY" "util/player_clip"
+		}
+	}
+}
 "TemplateBrush"
 {
 	"ID"	"TPL_EUTIL_STRIP_NODRAW"
 	"file"	"nodraw_strip_base.vmf"	
+}
+"TemplateBrush"
+{
+	"ID"	"TPL_EUTIL_STRIP_VOID"
+	"file"	"void_strip_base.vmf"	
+}
+"TemplateBrush"
+{
+	"ID"	"TPL_EUTIL_VOXEL_VOID"
+	"file"	"void_voxel_base.vmf"	
 }

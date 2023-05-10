@@ -26,7 +26,7 @@
 		{
 			"0"
 			{
-				"Name"				"instances/BEE2/clean/items/details/broken_light.vmf"
+				"Name"				"instances/BEE2/items/details/clean/broken_light.vmf"
 				"EntityCount"		"11"
 				"BrushCount"		"0"
 				"BrushSideCount"	"0"

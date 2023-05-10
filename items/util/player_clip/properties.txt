@@ -1,0 +1,14 @@
+"Properties"
+{
+	"Authors"		"Eliana"
+	"Tags"			"Util;Player;Clip"
+	"Description"	"Allows you to place a tile of player clip brushs. Useful for blocking off areas.
+	
+	* Type `r_drawclipbrushes 2` (With Cheats) in console to display the clips."
+	"InfoURL"		""
+	"Ent_count"     ""
+	"Icon"
+	{
+		"0"		"utils/player_clip.png"
+	}
+}
