@@ -30,16 +30,6 @@
 }
 "TemplateBrush"
 {
-	"ID"	"TPL_EUTIL_STRIP_NODRAW"
-	"file"	"nodraw_strip_base.vmf"	
-}
-"TemplateBrush"
-{
-	"ID"	"TPL_EUTIL_STRIP_VOID"
-	"file"	"void_strip_base.vmf"	
-}
-"TemplateBrush"
-{
-	"ID"	"TPL_EUTIL_VOXEL_VOID"
-	"file"	"void_voxel_base.vmf"	
+	"ID"	"TPL_EUTIL_FULL_COPY"
+	"file"	"copy_full_base.vmf"	
 }
